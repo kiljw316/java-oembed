@@ -33,6 +33,8 @@
  */
 package ac.simons.oembed;
 
+import java.io.Serial;
+
 /**
  * An exception for wrapping any checked exception that might happens due parsing of
  * responses etc.
@@ -42,6 +44,7 @@ package ac.simons.oembed;
  */
 public class OembedException extends RuntimeException {
 
+	@Serial
 	private static final long serialVersionUID = 7542551145054543755L;
 
 	public OembedException(final Throwable cause) {

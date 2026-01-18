@@ -22,6 +22,8 @@ Since version 0.8.1 this project is Java 11 *only*.
 
 Since version 1.0.0 this project is Java 17 *only* and uses Jakarta XML Bind instead of JAXB for parsing XML.
 
+Version 2.0.0 of this library has been upgraded to EHCache 3.
+
 h2. Usage
 
 h3. Dependency:
@@ -32,7 +34,7 @@ java-oembed is available in the Central Repository (since 0.2.10):
 <dependency>
     <groupId>eu.michael-simons</groupId>
     <artifactId>java-oembed</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
 </dependency>
 </code></pre>
 

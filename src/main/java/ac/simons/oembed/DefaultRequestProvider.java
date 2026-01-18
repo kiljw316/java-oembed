@@ -46,7 +46,7 @@ import org.slf4j.LoggerFactory;
  * @author Michael J. Simons
  * @since 2014-12-31
  */
-public class DefaultRequestProvider implements RequestProvider {
+final class DefaultRequestProvider implements RequestProvider {
 
 	static final Logger LOGGER = LoggerFactory.getLogger(DefaultRequestProvider.class.getPackage().getName());
 

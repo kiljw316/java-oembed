@@ -36,7 +36,7 @@ package ac.simons.oembed;
 /**
  * EHCache 3 is unhappy with {@literal null} values, so we wrap them.
  *
- * @param value actual OEmbed response, might be {@literal null}
+ * @param value actual oembed response, might be {@literal null}
  * @author Oliver Lockwood
  * @author Michael J. Simons
  * @since 2026-01-17

@@ -41,7 +41,7 @@ import org.jsoup.nodes.Element;
  * @author Michael J. Simons
  * @since 2015-01-02
  */
-class DefaultOembedResponseRenderer implements OembedResponseRenderer {
+final class DefaultOembedResponseRenderer implements OembedResponseRenderer {
 
 	@Override
 	public String render(final OembedResponse response, final Element originalAnchor) {
