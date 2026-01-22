@@ -272,8 +272,8 @@ public class OembedEndpoint {
 		String uri;
 		final List<NameValuePair> query = new ArrayList<>();
 
-		if (this.getEndpoint().toLowerCase().contains("%{format}")) {
-			uri = this.getEndpoint().replaceAll(Pattern.quote("%{format}"), this.getFormat().toString());
+		if (this.getEndpoint().toLowerCase().contains("{format}")) {
+			uri = this.getEndpoint().replaceAll(Pattern.quote("{format}"), this.getFormat().toString());
 		}
 		else {
 			uri = this.getEndpoint();

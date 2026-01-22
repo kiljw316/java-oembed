@@ -184,7 +184,7 @@ public class OembedServiceTests {
 	@Test
 	public void findEndpointForShouldWork() {
 		OembedEndpoint vimeo = new OembedEndpoint();
-		vimeo.setEndpoint("http://vimeo.com/api/oembed.%{format}");
+		vimeo.setEndpoint("http://vimeo.com/api/oembed.{format}");
 		vimeo.setUrlSchemes(Arrays.asList("https?://vimeo.com/groups/.+/videos/\\d+",
 				"https?://vimeo.com/channels/.+/\\d+", "https?://vimeo.com/\\d+"));
 
